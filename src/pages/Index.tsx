@@ -123,7 +123,7 @@ const Index = () => {
           </div>
           <div className="rounded-lg border p-6 hover-scale">
             <div className="text-3xl font-bold text-primary">↑ Conversions</div>
-            <p className="text-sm text-muted-foreground">Marketing pipelines that convert (with dashboards)</p>
+            <p className="text-sm text-muted-foreground">Marketing pipelines that convert with measurable results</p>
           </div>
         </div>
       </Section>

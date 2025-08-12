@@ -27,7 +27,7 @@ export const ServicesSection = ({ waHref }: Props) => {
         <span className="px-3 py-1 rounded-full bg-secondary text-secondary-foreground">Bilingual Teams</span>
         <span className="px-3 py-1 rounded-full bg-secondary text-secondary-foreground">South America · LATAM · U.S.</span>
         <span className="px-3 py-1 rounded-full bg-secondary text-secondary-foreground">Compliance‑Ready</span>
-        <span className="px-3 py-1 rounded-full bg-secondary text-secondary-foreground">Dashboards & KPIs</span>
+        <span className="px-3 py-1 rounded-full bg-secondary text-secondary-foreground">Analytics & KPIs</span>
       </div>
 
       <Tabs defaultValue="legal" className="w-full">
@@ -117,7 +117,7 @@ export const ServicesSection = ({ waHref }: Props) => {
             <h3 className="font-semibold mb-2">Marketing & Client/Patient Growth</h3>
             <div className="grid gap-6 md:grid-cols-2">
               <ul className="list-disc pl-5 text-sm text-muted-foreground space-y-1">
-                <li>Acquisition funnels, tracking, and dashboards</li>
+                <li>Acquisition funnels, tracking, and analytics</li>
                 <li>Bilingual outreach; landing pages & digital ads</li>
                 <li>Strategic partnerships with attorneys, providers, insurers</li>
               </ul>
