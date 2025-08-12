@@ -7,9 +7,9 @@ interface Props {
 }
 
 const TabHeader = ({ icon: Icon, label }: { icon: any; label: string }) => (
-  <div className="flex items-center gap-2">
+  <div className="flex flex-col items-center gap-1 md:flex-row md:gap-2">
     <Icon className="h-4 w-4 text-primary" aria-hidden="true" />
-    <span>{label}</span>
+    <span className="text-center">{label}</span>
   </div>
 );
 
@@ -31,12 +31,22 @@ export const ServicesSection = ({ waHref }: Props) => {
       </div>
 
       <Tabs defaultValue="legal" className="w-full">
-        <TabsList className="w-full justify-start overflow-x-auto whitespace-nowrap max-w-full">
-          <TabsTrigger value="legal"><TabHeader icon={Gavel} label="Legal Recruiting" /></TabsTrigger>
-          <TabsTrigger value="health"><TabHeader icon={Stethoscope} label="Healthcare Recruiting" /></TabsTrigger>
-          <TabsTrigger value="workforce"><TabHeader icon={Users} label="Workforce (HR & Payroll)" /></TabsTrigger>
-          <TabsTrigger value="marketing"><TabHeader icon={Megaphone} label="Marketing & Growth" /></TabsTrigger>
-          <TabsTrigger value="partners"><TabHeader icon={Handshake} label="Strategic Partnerships" /></TabsTrigger>
+        <TabsList className="w-full grid grid-cols-2 md:grid-cols-5 gap-2 md:gap-1 h-auto !inline-grid">
+          <TabsTrigger value="legal" className="h-auto py-3 px-2 text-xs md:text-sm">
+            <TabHeader icon={Gavel} label="Legal" />
+          </TabsTrigger>
+          <TabsTrigger value="health" className="h-auto py-3 px-2 text-xs md:text-sm">
+            <TabHeader icon={Stethoscope} label="Healthcare" />
+          </TabsTrigger>
+          <TabsTrigger value="workforce" className="h-auto py-3 px-2 text-xs md:text-sm">
+            <TabHeader icon={Users} label="HR & Payroll" />
+          </TabsTrigger>
+          <TabsTrigger value="marketing" className="h-auto py-3 px-2 text-xs md:text-sm">
+            <TabHeader icon={Megaphone} label="Marketing" />
+          </TabsTrigger>
+          <TabsTrigger value="partners" className="h-auto py-3 px-2 text-xs md:text-sm">
+            <TabHeader icon={Handshake} label="Partnerships" />
+          </TabsTrigger>
         </TabsList>
 
         <TabsContent value="legal" className="mt-6">
