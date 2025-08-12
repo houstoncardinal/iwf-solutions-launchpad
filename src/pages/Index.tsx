@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { ServicesSection } from "@/components/ServicesSection";
 
 const logo = "/lovable-uploads/4c6fd7b0-478f-40f9-8ccb-84625da0ef4a.png";
 
@@ -88,48 +89,7 @@ const Index = () => {
 
       {/* Services */}
       <Section id="services" title="Services" subtitle="Recruiting, HR & Payroll, Marketing, and Strategic Partnerships to help legal and healthcare teams scale efficiently.">
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-          <div className="rounded-lg border p-6 hover-scale">
-            <h3 className="font-semibold mb-2">Legal Sector Recruiting — Mid‑Level</h3>
-            <ul className="list-disc pl-5 text-sm text-muted-foreground space-y-1">
-              <li>Roles: Paralegals, Case Managers, Receptionists</li>
-              <li>Focus: Personal Injury, Civil, Immigration</li>
-              <li>Jurisdictions: Panamá, LATAM, U.S.</li>
-            </ul>
-          </div>
-          <div className="rounded-lg border p-6 hover-scale">
-            <h3 className="font-semibold mb-2">Healthcare Recruiting — Mid‑Level</h3>
-            <ul className="list-disc pl-5 text-sm text-muted-foreground space-y-1">
-              <li>Roles: Billing Specialists (RCM), Reception/Front Desk</li>
-              <li>Settings: Clinics, Imaging, Telehealth</li>
-              <li>Credentialing & compliance support</li>
-            </ul>
-          </div>
-          <div className="rounded-lg border p-6 hover-scale">
-            <h3 className="font-semibold mb-2">Affordable Workforce Solutions (HR & Payroll)</h3>
-            <ul className="list-disc pl-5 text-sm text-muted-foreground space-y-1">
-              <li>HR policies, payroll cycles, compliance</li>
-              <li>Nearshore staffing cost models</li>
-              <li>Scale teams without overspending</li>
-            </ul>
-          </div>
-          <div className="rounded-lg border p-6 hover-scale">
-            <h3 className="font-semibold mb-2">Marketing & Client/Patient Growth</h3>
-            <ul className="list-disc pl-5 text-sm text-muted-foreground space-y-1">
-              <li>Acquisition funnels, tracking, and dashboards</li>
-              <li>Bilingual outreach; landing pages & digital ads</li>
-              <li>Strategic partnerships with attorneys, providers, insurers</li>
-            </ul>
-          </div>
-          <div className="rounded-lg border p-6 hover-scale">
-            <h3 className="font-semibold mb-2">Strategic Partnerships</h3>
-            <ul className="list-disc pl-5 text-sm text-muted-foreground space-y-1">
-              <li>Co‑marketing & referral programs</li>
-              <li>Templates: MOUs, SOPs, playbooks</li>
-              <li>90‑day success checkpoints</li>
-            </ul>
-          </div>
-        </div>
+        <ServicesSection waHref={wa} />
       </Section>
 
       {/* Process */}
