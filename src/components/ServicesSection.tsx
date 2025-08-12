@@ -25,7 +25,7 @@ export const ServicesSection = ({ waHref }: Props) => {
       {/* Quick Overview Chips */}
       <div className="flex flex-wrap gap-2 mb-6 text-sm">
         <span className="px-3 py-1 rounded-full bg-secondary text-secondary-foreground">Bilingual Teams</span>
-        <span className="px-3 py-1 rounded-full bg-secondary text-secondary-foreground">Panamá · LATAM · U.S.</span>
+        <span className="px-3 py-1 rounded-full bg-secondary text-secondary-foreground">South America · LATAM · U.S.</span>
         <span className="px-3 py-1 rounded-full bg-secondary text-secondary-foreground">Compliance‑Ready</span>
         <span className="px-3 py-1 rounded-full bg-secondary text-secondary-foreground">Dashboards & KPIs</span>
       </div>
@@ -56,7 +56,7 @@ export const ServicesSection = ({ waHref }: Props) => {
               <ul className="list-disc pl-5 text-sm text-muted-foreground space-y-1">
                 <li>Roles: Paralegals, Case Managers, Receptionists</li>
                 <li>Focus: Personal Injury, Civil, Immigration</li>
-                <li>Jurisdictions: Panamá, LATAM, U.S.</li>
+                <li>Jurisdictions: South America, LATAM, U.S.</li>
               </ul>
               <div className="text-sm">
                 <div className="font-medium mb-1">Ideal for</div>

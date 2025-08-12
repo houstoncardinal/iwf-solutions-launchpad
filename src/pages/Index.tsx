@@ -101,7 +101,7 @@ const Index = () => {
               <div className="font-medium mb-1">{step}</div>
               <p className="text-sm text-muted-foreground">
                 {i===0 && "30–45 min call to align on roles, timelines, KPIs, and compliance."}
-                {i===1 && "Localized sourcing across Panamá & LATAM + targeted U.S. outreach."}
+                {i===1 && "Localized sourcing across South America & LATAM + targeted U.S. outreach."}
                 {i===2 && "Structured interviews, language/skills screens, culture fit."}
                 {i===3 && "Offer support, background checks, and 90‑day success checkpoints."}
               </p>
