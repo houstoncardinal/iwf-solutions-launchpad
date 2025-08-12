@@ -1,0 +1,27 @@
+{
+  "name": "IWF Solutions - Legal & Healthcare Recruiting",
+  "short_name": "IWF Solutions",
+  "description": "Legal & Healthcare Recruiting, HR & Marketing — Nearshore Advantage",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#023E8A",
+  "theme_color": "#023E8A",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/lovable-uploads/4c6fd7b0-478f-40f9-8ccb-84625da0ef4a.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/lovable-uploads/4c6fd7b0-478f-40f9-8ccb-84625da0ef4a.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "professional"],
+  "lang": "en",
+  "dir": "ltr"
+} 
