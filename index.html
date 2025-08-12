@@ -3,9 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>IWF Solutions — Legal & Healthcare Recruiting</title>
-    <meta name="description" content="IWF Solutions: Recruiting, HR & Payroll, Marketing, and Consulting for Legal & Healthcare across Panamá, LATAM, and the U.S." />
+    <title>Legal & Healthcare Recruiting | IWF Solutions</title>
+    <meta name="description" content="Recruiting, HR & Payroll, Marketing and Consulting for legal and healthcare teams in Panamá, LATAM and the U.S." />
     <link rel="canonical" href="https://www.iwf-solutions.com/" />
+    <meta name="robots" content="index,follow" />
+    <meta name="theme-color" content="#023E8A" />
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -13,38 +15,84 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
 
     <!-- Open Graph -->
-    <meta property="og:title" content="IWF Solutions — Legal & Healthcare Recruiting, HR & Marketing" />
-    <meta property="og:description" content="Recruiting, Affordable Workforce (HR & Payroll), Marketing & Consulting for Legal & Healthcare." />
+    <meta property="og:title" content="Legal & Healthcare Recruiting | IWF Solutions" />
+    <meta property="og:description" content="Recruiting, HR & Payroll, Marketing and Consulting for legal and healthcare teams in Panamá, LATAM and the U.S." />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="/lovable-uploads/4c6fd7b0-478f-40f9-8ccb-84625da0ef4a.png" />
     <meta property="og:url" content="https://www.iwf-solutions.com/" />
+    <meta property="og:site_name" content="IWF Solutions" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale:alternate" content="es_ES" />
+    <meta property="og:image" content="https://www.iwf-solutions.com/lovable-uploads/d9bf603e-6aa2-4e42-b407-b6d576ee333b.png" />
+    <meta property="og:image:alt" content="IWF Solutions website preview - Legal & Healthcare Recruiting, HR & Marketing" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@iwf_solutions" />
-    <meta name="twitter:image" content="/lovable-uploads/4c6fd7b0-478f-40f9-8ccb-84625da0ef4a.png" />
+    <meta name="twitter:title" content="Legal & Healthcare Recruiting | IWF Solutions" />
+    <meta name="twitter:description" content="Recruiting, HR & Payroll, Marketing and Consulting for legal and healthcare teams in Panamá, LATAM and the U.S." />
+    <meta name="twitter:image" content="https://www.iwf-solutions.com/lovable-uploads/d9bf603e-6aa2-4e42-b407-b6d576ee333b.png" />
+    <meta name="twitter:image:alt" content="IWF Solutions website preview - Legal & Healthcare Recruiting, HR & Marketing" />
 
     <!-- Structured Data -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "IWF Solutions",
-      "url": "https://www.iwf-solutions.com/",
-      "logo": "/lovable-uploads/4c6fd7b0-478f-40f9-8ccb-84625da0ef4a.png",
-      "email": "info@iwf-solutions.com",
-      "contactPoint": [{
-        "@type": "ContactPoint",
-        "contactType": "Customer Service",
-        "email": "info@iwf-solutions.com",
-        "telephone": "+5070000000"
-      }],
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "1410, Floor 14, P.H. Office One, Urbanización de Bella Vista",
-        "addressLocality": "Ciudad de Panamá",
-        "addressCountry": "PA"
-      }
+      "@graph": [
+        {
+          "@type": ["Organization","EmploymentAgency","ProfessionalService"],
+          "@id": "https://www.iwf-solutions.com/#org",
+          "name": "IWF Solutions",
+          "url": "https://www.iwf-solutions.com/",
+          "logo": "https://www.iwf-solutions.com/lovable-uploads/4c6fd7b0-478f-40f9-8ccb-84625da0ef4a.png",
+          "image": "https://www.iwf-solutions.com/lovable-uploads/d9bf603e-6aa2-4e42-b407-b6d576ee333b.png",
+          "slogan": "Legal & Healthcare Recruiting, HR & Marketing — Nearshore Advantage",
+          "email": "info@iwf-solutions.com",
+          "telephone": "+5070000000",
+          "knowsLanguage": ["en","es"],
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "1410, Floor 14, P.H. Office One, Urbanización de Bella Vista",
+            "addressLocality": "Ciudad de Panamá",
+            "addressCountry": "PA"
+          },
+          "areaServed": [
+            { "@type": "Country", "name": "Panama" },
+            { "@type": "Place", "name": "Latin America" },
+            { "@type": "Country", "name": "United States" }
+          ],
+          "contactPoint": [{
+            "@type": "ContactPoint",
+            "contactType": "Customer Service",
+            "email": "info@iwf-solutions.com",
+            "telephone": "+5070000000",
+            "availableLanguage": ["en","es"]
+          }]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.iwf-solutions.com/#website",
+          "url": "https://www.iwf-solutions.com/",
+          "name": "IWF Solutions",
+          "publisher": { "@id": "https://www.iwf-solutions.com/#org" },
+          "inLanguage": "en"
+        },
+        {
+          "@type": "OfferCatalog",
+          "@id": "https://www.iwf-solutions.com/#services",
+          "name": "IWF Solutions Services",
+          "url": "https://www.iwf-solutions.com/#services",
+          "provider": { "@id": "https://www.iwf-solutions.com/#org" },
+          "itemListElement": [
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Legal Sector Recruiting", "serviceType": "Paralegals, Case Managers, Receptionists" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Healthcare Recruiting", "serviceType": "Billing Specialists (RCM), Reception/Front Desk" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Affordable Workforce Solutions (HR & Payroll)", "serviceType": "HR policies, payroll cycles, compliance; nearshore staffing" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Marketing & Client/Patient Growth", "serviceType": "Acquisition funnels, tracking, dashboards; bilingual outreach" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Strategic Partnerships", "serviceType": "Co-marketing, referral programs, playbooks; 90-day checkpoints" } }
+          ]
+        }
+      ]
     }
     </script>
   </head>
